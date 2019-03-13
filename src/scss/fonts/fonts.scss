@@ -1,0 +1,99 @@
+/**
+ * ============================================================================
+ * Lib: Fonts
+ * ----------------------------------------------------------------------------
+ * Font embedding with fallbacks.
+ * ============================================================================
+ */
+
+ /* Soho ------------------------------------------------------------------- */
+
+ @font-face {
+    font-family:"Soho Gothic W01 Light";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Light.eot?#iefix'); /* IE9 Compat Modes */
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Light.eot?#iefix') format("eot"), /* IE6-IE8 */
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Light.woff') format("woff"), /* Modern Browsers */
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Light.ttf') format("truetype"), /* Safari, Android, iOS */
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Light.svg#SohoGothicW01Light') format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Light Italic";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-LightItal.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-LightItal.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-LightItal.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-LightItal.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-LightItal.svg#SohoGothicW01LightItalic') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Thin";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Thin.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Thin.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Thin.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Thin.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Thin.svg#SohoGothicW01Thin') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Thin Italic";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ThinItali.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ThinItali.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ThinItali.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ThinItali.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ThinItali.svg#SohoGothicW01ThinItalic') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Regular";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Regular.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Regular.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Regular.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Regular.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Regular.svg#SohoGothicW01Regular') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Medium";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Medium.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Medium.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Medium.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Medium.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Medium.svg#SohoGothicW01Medium') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Bold";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Bold.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Bold.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Bold.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Bold.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Bold.svg#SohoGothicW01Bold') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Bold Italic";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-BoldItali.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-BoldItali.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-BoldItali.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-BoldItali.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-BoldItali.svg#SohoGothicW01BoldItalic') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Extra Bold";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ExtraBold734925.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ExtraBold734925.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ExtraBold734925.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ExtraBold734925.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01-ExtraBold734925.svg#SohoGothicW01ExtraBold') format("svg");
+}
+
+@font-face {
+    font-family:"Soho Gothic W01 Italic";
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Italic.eot?#iefix');
+    src:url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Italic.eot?#iefix') format("eot"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Italic.woff') format("woff"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Italic.ttf') format("truetype"),
+        url('https://dqqzjdqmiszdy.cloudfront.net/sites/all/themes/specsavers_bootstrap/fonts/SohoGothicW01Italic.svg#SohoGothicW01Italic') format("svg");
+}

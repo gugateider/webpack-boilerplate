@@ -1,0 +1,11 @@
+@import 'fonts/fonts';
+
+.hello { 
+    font-family:"Soho Gothic W01 Bold";
+    &:after {
+        content: 'TESTING THIS';
+        background: yellow;
+    }
+    min-height: 400px;
+    background-image: url('../../assets/sample_image.jpg');
+}
